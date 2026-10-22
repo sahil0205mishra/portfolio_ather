@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Universal SEO & Technical Recruiter Metadata -->
+  <title>Sahil Mishra | AI Generalist, Systems &amp; Design Engineer — Portfolio &amp; Resume</title>
+  <meta name="description" content="Portfolio & Technical Resume of Sahil Mishra (SRM Institute of Science & Technology, CGPA 9.1). Featuring DeepGuard Multimodal AI, Full-Stack SaaS, PulseOS Context-Adaptive HMI, AeroMorph Generative CAD, and Frontier AI Vision." />
+  <meta name="keywords" content="Sahil Mishra, AI Generalist, AI Engineer, Full-Stack AI SaaS, Deepfake Detection, Generative Design, Automotive HMI, Computer Vision, SRM KTR, PyTorch, FastAPI, React" />
+  <meta name="author" content="Sahil Mishra" />
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="Sahil Mishra | AI Generalist, Systems &amp; Design Engineer" />
+  <meta property="og:description" content="Explore interactive AI prototypes, full-stack systems, generative CAD, and research case studies by Sahil Mishra." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Universal Status Bar for Recruiters & Engineering Leads -->
+  <header class="recruitment-banner">
+    <div class="banner-content">
+      <span class="pulse-dot"></span>
+      <strong>SAHIL MISHRA</strong>
+      <span style="color: var(--text-dim);">|</span>
+      <span>AI Generalist • Systems &amp; Design Engineer</span>
+      <span style="color: var(--text-dim);">|</span>
+      <span style="color: var(--ather-mint);">SRM Institute of Science &amp; Technology (CGPA: 9.1)</span>
+      <span style="color: var(--text-dim);">|</span>
+      <span>Status: <strong style="color: var(--ather-cyan);">Available for High-Impact Roles</strong></span>
+    </div>
+    <div class="banner-actions">
+      <button class="btn-tag copy-portfolio-link">🔗 Shareable Link</button>
+      <button class="btn-tag" onclick="window.print()">📄 Print / PDF Resume</button>
+      <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-tag">🐙 GitHub</a>
+    </div>
+  </header>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <a href="#" class="brand-wrapper">
+      <div class="brand-logo-symbol">⚡</div>
+      <div class="brand-text">
+        <h1>Sahil Mishra</h1>
+        <p>AI Generalist • Systems &amp; Design</p>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#projects">Shipped Projects</a></li>
+      <li><a href="#cockpit-hmi">Interactive HMI Lab</a></li>
+      <li><a href="#generative-cad">Generative 3D CAD</a></li>
+      <li><a href="#vision">Vision &amp; Frontier AI</a></li>
+      <li><a href="#resume-credentials">Resume &amp; Skills</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-secondary">🐙 GitHub Repos</a>
+      <a href="mailto:sahil0205mishra@gmail.com" class="btn-primary">✉ Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Left Column -->
+          <div class="hero-left">
+            <div class="badge-pill">
+              <span>✦</span> PORTFOLIO &amp; INTERACTIVE TECHNICAL RESUME
+            </div>
+            <h1 class="hero-title">
+              Engineering <span class="text-gradient">Intelligent Systems</span>, Generative AI &amp; Next-Gen Interfaces.
+            </h1>
+            <p class="hero-description">
+              Software Engineer and AI Generalist bridging <strong>Deep Learning (Computer Vision, ViT)</strong>, <strong>Scalable Cloud Microservices</strong>, and <strong>Context-Adaptive Human-Machine Interfaces</strong>. Passionate about solving complex problems at the intersection of AI, hardware, and user experience.
+            </p>
+
+            <div class="hero-stats">
+              <div class="stat-card">
+                <span class="stat-num">9.1</span>
+                <span class="stat-label">CGPA • SRM Institute of Tech</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">AWS AI</span>
+                <span class="stat-label">Certified AI Practitioner</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">Full-Stack</span>
+                <span class="stat-label">PyTorch • Docker • React</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">🚀 Explore Shipped Projects</a>
+              <a href="#vision" class="btn-secondary">💡 Future Vision Concepts</a>
+              <a href="#resume-credentials" class="btn-secondary">📄 View Complete Resume</a>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Interactive Quick Cockpit Simulator -->
+          <div class="hero-cockpit-frame">
+            <div class="cockpit-bezel">
+              <div class="bezel-header">
+                <span>PULSE-OS • SMART COCKPIT SIMULATOR</span>
+                <span style="color: var(--ather-mint);">● TELEMETRY ACTIVE</span>
+              </div>
+
+              <div class="bezel-screen">
+                <div class="cluster-topbar">
+                  <span>14:32</span>
+                  <span id="clusterModeBadge" class="cluster-mode-badge">WARP</span>
+                  <span>📶 5G • 32°C</span>
+                </div>
+
+                <div class="cluster-speed-wrap">
+                  <div id="clusterSpeed" class="cluster-speed-val">68</div>
+                  <div class="cluster-speed-unit">KM/H • VEHICLE VELOCITY</div>
+                  <div class="cluster-energy-gauge">
+                    <div id="energyFill" class="cluster-energy-fill"></div>
+                  </div>
+                </div>
+
+                <div class="cluster-bottom-metrics">
+                  <div>
+                    <span class="metric-val" id="clusterRange">72 km</span>
+                    <span class="metric-sub">Neural Range</span>
+                  </div>
+                  <div>
+                    <span class="metric-val" id="clusterBattery">84%</span>
+                    <span class="metric-sub">Pack State</span>
+                  </div>
+                  <div>
+                    <span class="metric-val" id="clusterEfficiency">38 Wh/km</span>
+                    <span class="metric-sub">Instant Burn</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cockpit-controls">
+                <button class="mode-btn active" data-mode="warp">Warp</button>
+                <button class="mode-btn" data-mode="sport">Sport</button>
+                <button class="mode-btn" data-mode="ride">Ride</button>
+                <button class="mode-btn" data-mode="smart">SmartEco</button>
+                <button class="mode-btn" data-mode="eco">Eco</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Core Engineering Disciplines -->
+    <section class="container" style="padding-bottom: 30px;">
+      <div class="section-header">
+        <span class="section-tag">Core Disciplines</span>
+        <h2 class="section-title">The Four Pillars of an AI Generalist</h2>
+        <p class="section-desc">
+          How software engineering rigor, machine learning architecture, and human-centered design converge to build impactful products.
+        </p>
+      </div>
+
+      <div class="pillar-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon">🧠</div>
+          <h3>Multimodal AI &amp; Vision</h3>
+          <p>Designing and deploying ensemble deep learning pipelines (Vision Transformers, CNNs, OpenCV) for media forensics, pattern recognition, and real-time edge inference.</p>
+          <div class="pillar-tags">
+            <span class="micro-tag">PyTorch</span>
+            <span class="micro-tag">ViT Models</span>
+            <span class="micro-tag">OpenCV</span>
+            <span class="micro-tag">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">🌐</div>
+          <h3>Full-Stack SaaS &amp; Cloud</h3>
+          <p>Engineering scalable microservices and web platforms using Node.js, Python, PostgreSQL, Prisma, and Docker with automated CI/CD pipelines.</p>
+          <div class="pillar-tags">
+            <span class="micro-tag">React / TypeScript</span>
+            <span class="micro-tag">PostgreSQL</span>
+            <span class="micro-tag">Docker</span>
+            <span class="micro-tag">AWS Cloud</span>
+          </div>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">🖥️</div>
+          <h3>Smart HMI &amp; Spatial UX</h3>
+          <p>Architecting context-adaptive digital cockpits, heads-up displays, and tokenized design systems compliant with ISO daylight contrast standards.</p>
+          <div class="pillar-tags">
+            <span class="micro-tag">Figma Design Tokens</span>
+            <span class="micro-tag">ISO 15008</span>
+            <span class="micro-tag">60 FPS Budget</span>
+          </div>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">📐</div>
+          <h3>Generative Computational CAD</h3>
+          <p>Exploring generative 3D diffusion and FEA stress-tensor optimization for lightweight structural vehicle and aerospace components.</p>
+          <div class="pillar-tags">
+            <span class="micro-tag">3D Topology Opt</span>
+            <span class="micro-tag">FEA Analysis</span>
+            <span class="micro-tag">Parametric 3D</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Shipped Projects & Repositories (From Resume) -->
+    <section id="projects" class="container">
+      <div class="section-header">
+        <span class="section-tag">Production Repositories</span>
+        <h2 class="section-title">Featured Technical Projects</h2>
+        <p class="section-desc">
+          Key applications engineered and open-sourced by Sahil Mishra, spanning multimodal computer vision, full-stack AI SaaS, and database management.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- Project 1: DeepGuard -->
+        <article class="project-card">
+          <div class="project-thumbnail">
+            <span class="thumb-tag">DEEP LEARNING • COMPUTER VISION</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- Facial Landmark Mesh & Bounding Box -->
+              <circle cx="200" cy="110" r="60" stroke="#00E599" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <ellipse cx="180" cy="100" rx="10" ry="6" stroke="#00F0FF" stroke-width="1.5"/>
+              <ellipse cx="220" cy="100" rx="10" ry="6" stroke="#00F0FF" stroke-width="1.5"/>
+              <path d="M190 130 Q200 138 210 130" stroke="#00E599" stroke-width="2"/>
+              <rect x="130" y="40" width="140" height="140" rx="8" stroke="#00E599" stroke-width="1.5" stroke-dasharray="8 4"/>
+              <text x="140" y="32" fill="#00E599" font-family="monospace" font-size="10">DEEPGUARD ENSEMBLE: 97.4%</text>
+              <line x1="50" y1="90" x2="130" y2="90" stroke="#00F0FF" stroke-width="1" stroke-dasharray="2 2"/>
+              <text x="15" y="94" fill="#00F0FF" font-family="monospace" font-size="9">NPR DEEPFAKE</text>
+              <line x1="50" y1="130" x2="130" y2="130" stroke="#00E599" stroke-width="1" stroke-dasharray="2 2"/>
+              <text x="15" y="134" fill="#00E599" font-family="monospace" font-size="9">CROSS-EFF ViT</text>
+              <line x1="270" y1="110" x2="340" y2="110" stroke="#FF5500" stroke-width="1" stroke-dasharray="2 2"/>
+              <text x="345" y="114" fill="#FF5500" font-family="monospace" font-size="9">FASTAPI GATEWAY</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>DeepGuard – Multimodal Deepfake Detection Platform</h3>
+              <p>
+                An ensemble-based deepfake detection system combining NPR Deepfake, UniversalFakeDetect, and Cross-Efficient Vision Transformers (ViT) with Voting, Averaging, and Stacking predictions. Deployed as scalable Docker microservices behind a high-performance FastAPI gateway.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">Python &amp; PyTorch</span>
+                <span class="micro-tag">OpenCV &amp; ViT</span>
+                <span class="micro-tag">FastAPI Gateway</span>
+                <span class="micro-tag">Docker Compose</span>
+                <span class="micro-tag">GitHub Actions CI/CD</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-tag">🐙 GitHub Code</a>
+              <button class="btn-secondary open-case-study" data-study="deepguard">System Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: AI-Powered Job Portal -->
+        <article class="project-card">
+          <div class="project-thumbnail">
+            <span class="thumb-tag">FULL-STACK SAAS • GENERATIVE AI</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- SaaS Architecture Diagram Visual -->
+              <rect x="50" y="60" width="90" height="100" rx="8" fill="#141c24" stroke="#00E599" stroke-width="1.5"/>
+              <text x="95" y="105" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="10">React + TS</text>
+              <text x="95" y="125" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="9">Vite Client</text>
+              
+              <line x1="140" y1="110" x2="190" y2="110" stroke="#00E599" stroke-width="1.5" stroke-dasharray="4 2"/>
+              
+              <rect x="190" y="45" width="100" height="60" rx="8" fill="#141c24" stroke="#00F0FF" stroke-width="1.5"/>
+              <text x="240" y="75" text-anchor="middle" fill="#00F0FF" font-family="monospace" font-size="10">Node/Express</text>
+              <text x="240" y="92" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="8">Auth &amp; Core APIs</text>
+
+              <rect x="190" y="120" width="100" height="60" rx="8" fill="#141c24" stroke="#FF5500" stroke-width="1.5"/>
+              <text x="240" y="150" text-anchor="middle" fill="#FF5500" font-family="monospace" font-size="10">FastAPI ML</text>
+              <text x="240" y="167" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="8">Resume Scoring</text>
+
+              <line x1="290" y1="110" x2="330" y2="110" stroke="#00E599" stroke-width="1.5"/>
+              <circle cx="345" cy="110" r="16" fill="#141c24" stroke="#00E599" stroke-width="1.5"/>
+              <text x="345" y="113" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="8">PostgreSQL</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>AI-Powered Job Portal – Full-Stack SaaS Application</h3>
+              <p>
+                A dual-service cloud application featuring intelligent candidate ranking and resume parsing. Built with high-speed Node.js/Express REST APIs, Python/FastAPI ML services, PostgreSQL database with Prisma ORM, and JWT authentication.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">React &amp; TypeScript</span>
+                <span class="micro-tag">Node.js / Express</span>
+                <span class="micro-tag">Python / FastAPI</span>
+                <span class="micro-tag">PostgreSQL &amp; Prisma</span>
+                <span class="micro-tag">Docker &amp; Supabase</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-tag">🐙 GitHub Code</a>
+              <button class="btn-secondary open-case-study" data-study="jobportal">System Details</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Real Estate Management System -->
+        <article class="project-card">
+          <div class="project-thumbnail">
+            <span class="thumb-tag">WEB APP • ENTERPRISE OPERATIONS</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- Property & Database Schema Visual -->
+              <rect x="60" y="50" width="120" height="120" rx="6" fill="#141c24" stroke="#00F0FF" stroke-width="1.5"/>
+              <path d="M75 100 L120 65 L165 100 Z" stroke="#00F0FF" stroke-width="1.5" fill="none"/>
+              <rect x="90" y="100" width="60" height="55" stroke="#00F0FF" stroke-width="1.5"/>
+              <line x1="120" y1="100" x2="120" y2="155" stroke="#00F0FF" stroke-width="1"/>
+              
+              <rect x="220" y="50" width="130" height="120" rx="6" fill="#141c24" stroke="#00E599" stroke-width="1.5"/>
+              <text x="285" y="75" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="9">MySQL Schema</text>
+              <line x1="230" y1="85" x2="340" y2="85" stroke="rgba(255,255,255,0.1)"/>
+              <text x="240" y="105" fill="#94A3B8" font-family="monospace" font-size="8">✓ Properties (3NF)</text>
+              <text x="240" y="125" fill="#94A3B8" font-family="monospace" font-size="8">✓ Client Inquiries</text>
+              <text x="240" y="145" fill="#94A3B8" font-family="monospace" font-size="8">✓ Transaction Logs</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>Enterprise Real Estate Management System</h3>
+              <p>
+                A web-based platform to manage property sales, listings, client contracts, and tenant operations. Built using PHP, modular CSS, Vanilla JavaScript, and a normalized MySQL relational database ensuring high data integrity.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">PHP (MVC Pattern)</span>
+                <span class="micro-tag">MySQL Database</span>
+                <span class="micro-tag">Vanilla JavaScript</span>
+                <span class="micro-tag">CSS3 Architecture</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-tag">🐙 GitHub Code</a>
+              <button class="btn-secondary open-case-study" data-study="realestate">System Details</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION: Interactive Technical Demonstrator 1: Smart Cockpit HMI -->
+    <section id="cockpit-hmi" class="container">
+      <div class="featured-project">
+        
+        <div class="project-hero-banner">
+          <div class="project-meta-bar">
+            <span class="project-role-badge">INTERACTIVE PROTOTYPE • AUTOMOTIVE &amp; IOT HMI</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-mint);">REAL-TIME TELEMETRY ENGINE</span>
+          </div>
+          <h2 class="project-title">PulseOS / NeuroHMI — Context-Adaptive Smart Cockpit</h2>
+          <p class="project-tagline">
+            An automotive display interface that dynamically declutters at high speeds, predicts elevation-aware battery degradation, and surfaces real-time regenerative braking feedback.
+          </p>
+        </div>
+
+        <div class="cluster-lab-wrapper">
+          
+          <!-- Live Interactive Cluster Display -->
+          <div class="hmi-display-unit">
+            <div class="hmi-screen-header">
+              <div class="ather-os-logo">
+                <span>⚡</span> PulseOS • CONNECTED CLUSTER
+              </div>
+              <div style="display: flex; gap: 14px;">
+                <span>TEMP: 31°C</span>
+                <span style="color: var(--ather-mint);">SYSTEM: NOMINAL</span>
+                <span>ISO 15008 COMPLIANT</span>
+              </div>
+            </div>
+
+            <div class="hmi-screen-main">
+              <div class="gauges-area">
+                <div class="speedo-large" id="mainSpeedDisplay">68</div>
+                <div class="speed-unit">KM/H • VEHICLE VELOCITY</div>
+
+                <div class="power-regen-slider">
+                  <div class="bar-labels">
+                    <span>REGEN (-12 kW)</span>
+                    <span>NEUTRAL</span>
+                    <span>POWER (+16 kW)</span>
+                  </div>
+                  <div class="power-bar-track">
+                    <div class="power-bar-fill" id="mainPowerBar"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AI Navigation Widget -->
+              <div class="nav-widget">
+                <div class="nav-header">
+                  <span>PREDICTIVE ENERGY ROUTE</span>
+                  <span>ACTIVE GUIDANCE</span>
+                </div>
+                <div class="nav-instruction">
+                  <div class="nav-arrow">↰</div>
+                  <div class="nav-text">
+                    <strong>In 240m, Turn Left</strong>
+                    <span>Into Express Corridor • Next Hub 4.2 km</span>
+                  </div>
+                </div>
+                <div class="ai-prediction-pill">
+                  <span>🧠</span>
+                  <span>AI: Elevation climb +42m detected • +1.4 kWh reserved</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hmi-screen-footer">
+              <div>
+                <span style="color: var(--text-dim);">ODO:</span> <strong>3,482 KM</strong>
+              </div>
+              <div>
+                <span style="color: var(--text-dim);">DRIVE MODE:</span> <strong id="mainModeText" style="color: var(--ather-warp);">WARP MODE ACTIVE</strong>
+              </div>
+              <div>
+                <span style="color: var(--text-dim);">EST. RANGE:</span> <strong id="mainRangeText" style="color: var(--ather-mint);">72 KM REMAINING</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls Panel for Evaluator -->
+          <div class="ride-controls-panel">
+            <div>
+              <h3 style="font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">HMI Interactive Controls</h3>
+              <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 18px;">
+                Slide the throttle or click ride cycle to observe how the interface dynamically reorganizes visual priority.
+              </p>
+
+              <div class="control-group">
+                <label class="control-label" for="throttleInput">Vehicle Throttle / Speed (km/h)</label>
+                <div class="throttle-slider-wrap">
+                  <input type="range" id="throttleInput" min="0" max="95" value="68" />
+                </div>
+              </div>
+
+              <div class="control-group">
+                <span class="control-label">Ride Modes</span>
+                <div class="mode-selector-grid">
+                  <button class="mode-btn active" data-mode="warp">Warp (95 km/h)</button>
+                  <button class="mode-btn" data-mode="sport">Sport (82 km/h)</button>
+                  <button class="mode-btn" data-mode="ride">Ride (70 km/h)</button>
+                  <button class="mode-btn" data-mode="smart">SmartEco (65 km/h)</button>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button id="simulateRideBtn" class="btn-primary" style="width: 100%; justify-content: center; margin-bottom: 12px;">
+                ⚡ Simulate EV Ride Cycle
+              </button>
+              <button class="btn-secondary open-case-study" data-study="neurohmi" style="width: 100%; justify-content: center;">
+                📖 Read Full HMI Design Case Study
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Interactive Technical Demonstrator 2: Generative 3D CAD Lab -->
+    <section id="generative-cad" class="container">
+      <div class="featured-project">
+        
+        <div class="project-hero-banner">
+          <div class="project-meta-bar">
+            <span class="project-role-badge" style="border-color: var(--ather-cyan); color: var(--ather-cyan);">COMPUTATIONAL VEHICLE &amp; AEROSPACE ENGINEERING</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-cyan);">3D GENERATIVE TOPOLOGY OPTIMIZATION</span>
+          </div>
+          <h2 class="project-title">AeroMorph AI — Generative Chassis &amp; Topology Optimization</h2>
+          <p class="project-tagline">
+            Coupling generative 3D latent diffusion with Finite Element Analysis (FEA) to synthesise lightweight aluminium subframe structures with 14% mass reduction while preserving 430+ Nm/deg torsional stiffness.
+          </p>
+        </div>
+
+        <div class="generative-lab-grid">
+          
+          <!-- Interactive 3D Canvas -->
+          <div class="cad-canvas-container">
+            <div class="cad-canvas-toolbar">
+              <span class="cad-badge">Structural Subframe Lattice</span>
+              <span class="cad-badge" id="iterVal" style="color: var(--ather-cyan);">Epoch #64</span>
+              <button id="toggleStressBtn" class="cad-badge active" style="cursor: pointer;">🔥 von Mises Stress Heatmap</button>
+            </div>
+
+            <canvas id="topologyCanvas"></canvas>
+
+            <div class="cad-canvas-footer">
+              <span>🖱 Drag to Rotate 3D Lattice • Touch Friendly</span>
+              <span style="color: var(--ather-mint);">Tooling Check: 100% Castable</span>
+            </div>
+          </div>
+
+          <!-- Topology Optimization Controls -->
+          <div class="generative-controls-panel">
+            <div>
+              <h3 style="font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">Parametric Generative Studio</h3>
+              <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 20px;">
+                Modify structural constraints in real-time. Notice how the AI eliminates unstressed material webs while fortifying primary load paths.
+              </p>
+
+              <div class="slider-param">
+                <div class="slider-param-header">
+                  <span>Target Mass Reduction</span>
+                  <strong id="weightVal" style="color: var(--ather-mint);">-14%</strong>
+                </div>
+                <input type="range" id="weightSlider" min="5" max="30" value="14" />
+              </div>
+
+              <div class="slider-param">
+                <div class="slider-param-header">
+                  <span>Torsional Stiffness Threshold</span>
+                  <strong id="rigidityVal" style="color: var(--ather-cyan);">420 Nm/°</strong>
+                </div>
+                <input type="range" id="rigiditySlider" min="300" max="550" value="420" />
+              </div>
+
+              <div class="slider-param">
+                <div class="slider-param-header">
+                  <span>Diffusion Iteration Step</span>
+                  <span>Latent Convergence</span>
+                </div>
+                <input type="range" id="iterSlider" min="16" max="120" value="64" />
+              </div>
+
+              <div class="topology-stats-grid">
+                <div class="top-stat-box">
+                  <div class="top-stat-val">-1.42 kg</div>
+                  <div class="top-stat-lbl">Unsprung Mass Saved</div>
+                </div>
+                <div class="top-stat-box">
+                  <div class="top-stat-val">0.284 Cd</div>
+                  <div class="top-stat-lbl">Aerodynamic Drag</div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="btn-primary open-case-study" data-study="aeromorph" style="width: 100%; justify-content: center;">
+                📐 View Complete Topology &amp; FEA Case Study
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: VISION & NEW CONCEPTS (NEW SECTION REQUESTED BY USER) -->
+    <section id="vision" class="container" style="padding-top: 20px;">
+      <div class="section-header">
+        <span class="section-tag">Innovation &amp; Future Concepts</span>
+        <h2 class="section-title">Frontier AI &amp; Next-Gen Vision</h2>
+        <p class="section-desc">
+          Architectural ideas exploring how Artificial Intelligence evolves from text generation into autonomous physical engineering, spatial reality, and human symbiosis.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- Vision Concept 1 -->
+        <article class="project-card">
+          <div class="project-thumbnail" style="background: #091218;">
+            <span class="thumb-tag" style="color: var(--ather-cyan); border-color: var(--ather-cyan);">CONCEPT 01 • AGENTIC CAD</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- Multi-agent diagram -->
+              <circle cx="100" cy="110" r="30" stroke="#00F0FF" stroke-width="1.5" fill="#0c1720"/>
+              <text x="100" y="114" text-anchor="middle" fill="#00F0FF" font-family="monospace" font-size="9">Reasoning LLM</text>
+              
+              <line x1="130" y1="110" x2="190" y2="70" stroke="#00E599" stroke-width="1.5"/>
+              <circle cx="220" cy="70" r="28" stroke="#00E599" stroke-width="1.5" fill="#0c1720"/>
+              <text x="220" y="74" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="8">FEA Solver</text>
+              
+              <line x1="130" y1="110" x2="190" y2="150" stroke="#FF5500" stroke-width="1.5"/>
+              <circle cx="220" cy="150" r="28" stroke="#FF5500" stroke-width="1.5" fill="#0c1720"/>
+              <text x="220" y="154" text-anchor="middle" fill="#FF5500" font-family="monospace" font-size="8">CFD Airflow</text>
+
+              <line x1="250" y1="110" x2="310" y2="110" stroke="#fff" stroke-width="1.5" stroke-dasharray="4 2"/>
+              <rect x="310" y="85" width="70" height="50" rx="6" stroke="#fff" stroke-width="1.5" fill="#0c1720"/>
+              <text x="345" y="113" text-anchor="middle" fill="#fff" font-family="monospace" font-size="9">STEP CAD</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>SynapseCAD – Autonomous Multi-Agent Generative CAD</h3>
+              <p>
+                An agentic framework where natural language mechanical constraints are translated into valid B-Rep 3D CAD. LLM agents query localized FEA solvers and 5-axis CNC machining rules in continuous feedback loops before outputting production STEP files.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">Agentic Tool-Calling</span>
+                <span class="micro-tag">Parametric OpenCASCADE</span>
+                <span class="micro-tag">Automated FEA Loop</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-cyan);">Prompt-to-Physical</span>
+              <button class="btn-secondary open-case-study" data-study="visionary">View Architecture</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Vision Concept 2 -->
+        <article class="project-card">
+          <div class="project-thumbnail" style="background: #091218;">
+            <span class="thumb-tag" style="color: var(--ather-mint); border-color: var(--ather-mint);">CONCEPT 02 • SPATIAL AI</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- 3D Holographic Frustum -->
+              <polygon points="120,180 280,180 340,60 60,60" stroke="#00E599" stroke-width="1.5" stroke-dasharray="4 4" fill="rgba(0,229,153,0.04)"/>
+              <circle cx="200" cy="110" r="16" stroke="#00F0FF" stroke-width="2"/>
+              <text x="200" y="114" text-anchor="middle" fill="#00F0FF" font-family="monospace" font-size="8">HAZARD</text>
+              <line x1="200" y1="110" x2="200" y2="180" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="2 2"/>
+              <text x="200" y="200" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="9">3D GAUSSIAN SPLATTING PROJECTION</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>Spatial NeRF &amp; Holographic HUD Telepresence</h3>
+              <p>
+                Using 3D Gaussian Splatting and Neural Radiance Fields to project true stereoscopic hazard vectors and blind-spot reconstructions directly onto vehicular windscreens and smart helmet visors, eliminating peripheral blind zones in fog and rain.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">3D Gaussian Splatting</span>
+                <span class="micro-tag">NeRF Reconstruction</span>
+                <span class="micro-tag">Spatial HUD Optics</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-mint);">Low-Latency 90 FPS</span>
+              <button class="btn-secondary open-case-study" data-study="visionary">View Architecture</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Vision Concept 3 -->
+        <article class="project-card">
+          <div class="project-thumbnail" style="background: #091218;">
+            <span class="thumb-tag" style="color: var(--ather-warp); border-color: var(--ather-warp);">CONCEPT 03 • NEURO-ADAPTIVE</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- Biometric wave -->
+              <path d="M40 110 Q80 110 100 80 T140 140 T180 50 T220 160 T260 110 T360 110" stroke="#FF5500" stroke-width="2" fill="none"/>
+              <text x="200" y="35" text-anchor="middle" fill="#FF5500" font-family="monospace" font-size="10">COGNITIVE LOAD: LOW FATIGUE</text>
+              <rect x="140" y="165" width="120" height="24" rx="4" fill="#141c24" stroke="#00E599"/>
+              <text x="200" y="181" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="9">UI DENSITY: EXPANDED</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>NeuroAdaptive Symbiosis (Closed-Loop Ergonomics)</h3>
+              <p>
+                Continuous biometric telemetry measuring cognitive stress, pupil saccades, and reaction latencies. Dynamically alters digital interface density, ambient acoustic cues, and powertrain sensitivity before driver fatigue can trigger safety incidents.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">Biometric Ergonomics</span>
+                <span class="micro-tag">Dynamic UI Density</span>
+                <span class="micro-tag">Preventative Safety</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-warp);">Human-in-the-Loop</span>
+              <button class="btn-secondary open-case-study" data-study="visionary">View Architecture</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Vision Concept 4 -->
+        <article class="project-card">
+          <div class="project-thumbnail" style="background: #091218;">
+            <span class="thumb-tag" style="color: var(--ather-cyan); border-color: var(--ather-cyan);">CONCEPT 04 • EDGE SLMs</span>
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="220" fill="#080c10"/>
+              <!-- NPU Chip visual -->
+              <rect x="150" y="60" width="100" height="100" rx="12" fill="#141c24" stroke="#00F0FF" stroke-width="2"/>
+              <text x="200" y="105" text-anchor="middle" fill="#00F0FF" font-family="monospace" font-size="11">EDGE NPU</text>
+              <text x="200" y="125" text-anchor="middle" fill="#00E599" font-family="monospace" font-size="9">2B SLM INT4</text>
+              <!-- Pin connectors -->
+              <line x1="120" y1="80" x2="150" y2="80" stroke="#00F0FF" stroke-width="2"/>
+              <line x1="120" y1="110" x2="150" y2="110" stroke="#00F0FF" stroke-width="2"/>
+              <line x1="120" y1="140" x2="150" y2="140" stroke="#00F0FF" stroke-width="2"/>
+              <line x1="250" y1="80" x2="280" y2="80" stroke="#00F0FF" stroke-width="2"/>
+              <line x1="250" y1="110" x2="280" y2="110" stroke="#00F0FF" stroke-width="2"/>
+              <line x1="250" y1="140" x2="280" y2="140" stroke="#00F0FF" stroke-width="2"/>
+              <text x="200" y="195" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="9">ZERO CLOUD DEPENDENCY • &lt; 8ms</text>
+            </svg>
+          </div>
+          <div class="project-body">
+            <div>
+              <h3>Edge-Native Small Language Models (Physical AI)</h3>
+              <p>
+                Pruned, 4-bit quantized 1.5B–3B multimodal foundation models deployed directly on vehicular &amp; robotic NPUs. Enables instant zero-cloud voice comprehension, predictive route computation, and offline situational awareness without latency bottlenecks.
+              </p>
+              <div class="pillar-tags" style="margin-bottom: 14px;">
+                <span class="micro-tag">INT4 / AWQ Quantization</span>
+                <span class="micro-tag">ARM / Snapdragon NPU</span>
+                <span class="micro-tag">Offline Privacy</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--ather-cyan);">100% Offline AI</span>
+              <button class="btn-secondary open-case-study" data-study="visionary">View Architecture</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION: Complete Academic Resume, Skills & Contact -->
+    <section id="resume-credentials" class="container">
+      <div class="credentials-section">
+        
+        <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div>
+              <span class="section-tag">Candidate Resume &amp; Track Record</span>
+              <h2 class="section-title">Sahil Mishra — Education &amp; Skills</h2>
+            </div>
+            <div>
+              <button class="btn-primary" onclick="window.print()">🖨 Print / Export PDF Resume</button>
+            </div>
+          </div>
+          <p class="section-desc">
+            Directly mapped from verified resume and GitHub repositories (<a href="https://github.com/sahil0205mishra" target="_blank" style="color: var(--ather-mint);">github.com/sahil0205mishra</a>).
+          </p>
+        </div>
+
+        <div class="credentials-grid">
+          
+          <!-- Education & Academic Track Record -->
+          <div class="credential-col">
+            <h4>🎓 Academic Education</h4>
+            <div class="timeline">
+              
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="timeline-title">SRM Institute of Science &amp; Technology, Chennai</div>
+                <div class="timeline-sub">B.Tech in CSE (Software Engineering) • 2023 – 2027</div>
+                <div class="timeline-desc">
+                  <strong>CGPA: 9.1 / 10.0</strong> • Rigorous coursework in Data Structures &amp; Algorithms, Object-Oriented Programming, and Database Management Systems.
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-dot" style="background: var(--ather-cyan);"></span>
+                <div class="timeline-title">DAV Public School Bariatu, Ranchi</div>
+                <div class="timeline-sub">Higher Secondary Education, CBSE • 2021 – 2023</div>
+                <div class="timeline-desc">
+                  Score: <strong>73.8%</strong> • Physics, Chemistry, Mathematics &amp; Computer Science.
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-dot" style="background: var(--ather-mint);"></span>
+                <div class="timeline-title">DAV Public School Bariatu, Ranchi</div>
+                <div class="timeline-sub">Secondary Education, CBSE • 2020 – 2021</div>
+                <div class="timeline-desc">
+                  Score: <strong>93.8%</strong> • Distinction with Academic Honors.
+                </div>
+              </div>
+
+            </div>
+
+            <h4 style="margin-top: 24px;">🏆 Positions of Responsibility</h4>
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 14px 18px; border-radius: 10px;">
+              <strong style="color: #fff; display: block;">Football Team Captain — DAV Public School Bariatu (2020–2023)</strong>
+              <span style="font-size: 0.82rem; color: var(--text-secondary);">Honed high-pressure decision-making, strategic spatial awareness, and cross-functional team coordination.</span>
+            </div>
+
+            <h4 style="margin-top: 24px;">📜 Industry Certifications</h4>
+            <div class="skills-list">
+              <span class="skill-tag">AWS Certified AI Practitioner</span>
+              <span class="skill-tag">AWS Certified Cloud Practitioner</span>
+              <span class="skill-tag">Oracle Cloud Infrastructure Foundations</span>
+              <span class="skill-tag">Programming in Java – NPTEL</span>
+            </div>
+          </div>
+
+          <!-- Technical & Design Stack -->
+          <div class="credential-col">
+            <h4>🛠️ Technical Skills &amp; Competencies</h4>
+            
+            <div style="margin-bottom: 18px;">
+              <span style="font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Programming Languages</span>
+              <div class="skills-list">
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">JavaScript / TypeScript</span>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+              <span style="font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Backend, Cloud &amp; DevOps</span>
+              <div class="skills-list">
+                <span class="skill-tag">Node.js &amp; Express</span>
+                <span class="skill-tag">Python / FastAPI</span>
+                <span class="skill-tag">REST APIs &amp; JWT</span>
+                <span class="skill-tag">Docker &amp; Kubernetes</span>
+                <span class="skill-tag">AWS Cloud Services</span>
+                <span class="skill-tag">CI/CD &amp; GitHub Actions</span>
+                <span class="skill-tag">PostgreSQL &amp; MySQL</span>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+              <span style="font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Data Analytics &amp; Machine Learning</span>
+              <div class="skills-list">
+                <span class="skill-tag">PyTorch &amp; OpenCV</span>
+                <span class="skill-tag">Pandas &amp; NumPy</span>
+                <span class="skill-tag">Power BI &amp; SQL</span>
+                <span class="skill-tag">Exploratory Data Analysis (EDA)</span>
+                <span class="skill-tag">Scikit-learn &amp; XGBoost</span>
+                <span class="skill-tag">Dashboard Development</span>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+              <span style="font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Design &amp; UI/UX Prototyping</span>
+              <div class="skills-list">
+                <span class="skill-tag">Figma &amp; Tokenized Systems</span>
+                <span class="skill-tag">Automotive HMI UX</span>
+                <span class="skill-tag">ISO 15008 Ergonomics</span>
+                <span class="skill-tag">HTML5 Canvas 2D/3D</span>
+                <span class="skill-tag">Tailwind CSS</span>
+              </div>
+            </div>
+
+            <!-- Direct Contact Box -->
+            <div style="margin-top: 26px; padding: 18px; background: rgba(0, 229, 153, 0.05); border: 1px dashed var(--ather-mint); border-radius: 12px;">
+              <strong style="color: var(--ather-mint); font-size: 0.95rem; display: block; margin-bottom: 6px;">Candidate Direct Contact:</strong>
+              <div style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--text-secondary); line-height: 1.8;">
+                📞 <strong>+91 8102547764</strong><br/>
+                ✉️ <strong>sahil0205mishra@gmail.com</strong><br/>
+                🐙 <strong><a href="https://github.com/sahil0205mishra" target="_blank" style="color: var(--ather-cyan);">github.com/sahil0205mishra</a></strong><br/>
+                📍 <strong>Chennai / Ranchi, India</strong>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Recruiter Call to Action Box -->
+    <section class="container">
+      <div class="cta-box">
+        <h2>Let’s Build the Future of Intelligent Systems</h2>
+        <p>
+          Open to full-time engineering and product design roles, AI research internships, and visionary technical pair programming.
+        </p>
+
+        <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+          <a href="mailto:sahil0205mishra@gmail.com" class="btn-primary">
+            ✉ Email Sahil Mishra
+          </a>
+          <button class="btn-secondary copy-portfolio-link">
+            🔗 Copy Shareable Link
+          </button>
+          <a href="https://github.com/sahil0205mishra" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            🐙 Explore GitHub Repositories
+          </a>
+          <button class="btn-secondary" onclick="window.print()">
+            🖨 Print Resume
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#projects">Shipped Projects</a>
+        <a href="#cockpit-hmi">Cockpit HMI</a>
+        <a href="#generative-cad">Generative CAD</a>
+        <a href="#vision">Frontier Vision</a>
+        <a href="#resume-credentials">Resume &amp; Track Record</a>
+        <a href="https://github.com/sahil0205mishra" target="_blank">GitHub</a>
+      </div>
+      <p>
+        Portfolio &amp; Interactive Resume • Sahil Mishra • SRM Institute of Science &amp; Technology (2023–2027)
+      </p>
+    </div>
+  </footer>
+
+  <!-- Modal Container for Case Studies -->
+  <div id="caseStudyModal" class="modal-backdrop">
+    <div class="modal-window">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">✕</button>
+      <div id="modalBody" class="modal-content-inner">
+        <!-- Injected dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

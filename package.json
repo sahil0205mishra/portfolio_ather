@@ -1,0 +1,20 @@
+{
+  "name": "sahil-mishra-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive Portfolio & Technical Resume - Sahil Mishra | AI Generalist, Design & Systems Engineer",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "start": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "ai-engineer",
+    "ai-generalist",
+    "generative-design",
+    "automotive-hmi",
+    "computer-vision",
+    "full-stack-ai",
+    "sahil-mishra"
+  ],
+  "author": "Sahil Mishra",
+  "license": "MIT"
+}
